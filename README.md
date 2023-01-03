@@ -1,60 +1,671 @@
-# 🐾 유기묘 무료 분양 플랫폼 사지마켓
+# 자취러들의 현명한 소비생활, 1n마켓 🛒
 
-## 배포 URL
+📌 **배포 URL** : https://1in-market.vercel.app/
 
-- URL: https://dont-buyma-cat.web.app/
-- 계정
-  - `ID`: lovecat@lovecat.com
-  - `PassWord`: lovecat
+📌 **계정** `ID` 1nmarket@sharebuy.com <br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `PW` 1nmarket
 
-<img src="https://cdn.discordapp.com/attachments/984426580141019232/1002217879523033138/e5f92955d42b9c4b.jpg">
+<br />
+   
+![1nmarket_readme7](https://user-images.githubusercontent.com/104605709/210308994-3e9752d8-c24b-4659-97ed-9b2aa787c74a.jpg)
 
-<br>
+<br />
 
-## 사지마켓에 오신 것을 환영합니다!
+## 1. 프로젝트 소개
 
-🐱 사지마켓은 전국의 지자체 유기동물 보호센터와 연계하여 운영되는 유기묘 무료 분양 플랫폼입니다.
+> 🛒 **1n마켓**은 개인으로 사기에 부담스러운 용량의 물건들을 같이 구매함으로써 불필요한 구매를 줄이고 합리적인 소비를 할 수 있도록 도와주는 공동구매 커뮤니티 마켓입니다. <br /> <br />
+> 💡 1인 가구가 증가하고 있는 사회적 흐름에 따라 구매를 원하지만 개인에게는 과잉 구매가 될 수 있는 물건들을 같이 살 수 있으면 좋겠다는 생각에서 시작됐습니다. <br /> <br />
+> 👥 직접 공동구매를 모집하여 생필품, 식료품 등에서 나가는 불필요한 지출을 줄일 수 있습니다. <br /> <br />
+> 👋 본인의 자취생활 꿀팁 및 어려운 부분들은 게시글을 작성하여 공유할 수 있습니다. <br /> <br />
+> 💬 다른 자취러들의 꿀팁이 궁금하다면 친해지고 싶은 사용자를 팔로우하여 1인 가구 라이프스타일을 함께 공유해 보세요!
 
-👥 우리는 턱없이 낮은 유기동물 입양률을 해결하기 위해 유기동물 보호소의 접근성을 높이는데 집중합니다.
+<br />
 
-💬 채팅 기능을 통해 보호센터와 간편하게 문의가 가능합니다.
+## 2. 팀원 및 역할분담
 
-😻 입양된 냥이들의 귀여운 일상 모습을 자랑하는 SNS 기능도 있답니다!
-
-<br>
-
-## 팀원소개 및 역할분담
-
-- 4명의 Front-end 개발자로 구성
-
-| 역할 | 이름   | Github                                         | 포지션                                          |
-| ---- | ------ | ---------------------------------------------- | ----------------------------------------------- |
-| 팀장 | 최수빈 | [subincdev](https://github.com/subincdev)      | 코드리뷰에 미친 자 · 팀 내 기록 문서화          |
-| 팀원 | 김시아 | [Sia kim](https://github.com/mrbrightsiide)    | 성능최적화에 목숨건 자 · 기술문제 해결사        |
-| 팀원 | 조윤희 | [unidagit](https://github.com/unidagit)        | 못난UX 혐오자 · 디자인 및 피그마 제작           |
-| 팀원 | 허지현 | [Jihyun Heo](https://github.com/Koreanhamster) | 버전관리에 인생을 바친 자 · 기획 및 컨벤션 수립 |
-
-<img src="https://media.discordapp.net/attachments/984426580141019232/1002212058953166879/cb7347be7d6695cb.jpg?width=2160&height=827">
-
-<br/>
-
-## ⚒ 개발 환경
-
-### [기술]
-
-- FrontEnd : React, React-router, Hooks, Styled-components<br/>
-- BackEnd : 제공된 API 사용 <br/>
-
-### [협업 도구]
-
-- [GitHub Wiki](https://github.com/anything-market/don-t-buy-macat/wiki) : 컨벤션 및 프로젝트 회의록 기록
-- [GitHub Project](https://github.com/anything-market/don-t-buy-macat/projects/1) : 프로젝트 진행사항 칸반보드 관리
-- Notion : 프로젝트 일정관리 및 문서공유
-- Discord : 실시간 채팅 및 온라인 미팅
+|                              **팀리더 & 프론트**                               |                              **디자인 & 프론트**                               |                                   **프론트**                                    |                                   **프론트**                                    |
+| :----------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+|                        [재원](https://github.com/oneny)                        |                      [승미](https://github.com/wSeungMi)                       |                      [석규](https://github.com/angenehms)                       |                       [민희](https://github.com/dev-chu)                        |
+| <img src="https://avatars.githubusercontent.com/u/97153666?v=4" width="100" /> | <img src="https://avatars.githubusercontent.com/u/104605709?v=4" width='100'/> | <img src="https://avatars.githubusercontent.com/u/111214565?v=4"  width='100'/> | <img src='https://avatars.githubusercontent.com/u/108019693?v=4' width='100' /> |
 
 <br>
 
-## 구현기능(v1.0.0)
+<img src="https://user-images.githubusercontent.com/111214565/210323336-dc6e0741-5fe1-4035-992f-7f7398377892.png" width="1000">
+
+<br />
+
+## 3. 개발환경
+
+| **Front-End**                                                | **Back-End** | **디자인**                                  | **버전 관리 및 협업 도구**                                                                                                                                                                                                                   |
+| ------------------------------------------------------------ | ------------ | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `HTML Living Standard` <br> `styled-components` <br> `React` | 제공된 API   | `Photoshop` <br> `illustrator` <br> `Figma` | `Git` <br> `Github` [Wiki(컨벤션)](https://github.com/1nMarket/frontend/wiki) / [Project](https://github.com/orgs/1nMarket/projects/1) <br> `Notion` 주요 회의록 및 일정관리 <br> `Discord` 웹훅(실시간 커밋&PR관리)사용 및 회의/실시간 소통 |
+
+<details>
+  <summary><strong>폴더트리 보기</strong></summary>
+
+```shell
+  src
+   ┣ apis
+   ┃ ┗ axios.js
+   ┣ assets
+   ┃ ┗ icons
+   ┣ components
+   ┃ ┣ alertModals
+   ┃ ┃ ┣ AlertModalLayout
+   ┃ ┃ ┣ LogoutModal
+   ┃ ┃ ┣ PostRemoveModal
+   ┃ ┃ ┣ ProductAlertModal
+   ┃ ┃ ┗ ReportModal
+   ┃ ┣ comment
+   ┃ ┃ ┣ CommentBox
+   ┃ ┃ ┗ CommentInput
+   ┃ ┣ common
+   ┃ ┃ ┣ Header
+   ┃ ┃ ┃ ┣ ChatHeader
+   ┃ ┃ ┃ ┣ FollowHeader
+   ┃ ┃ ┃ ┣ HomeHeader
+   ┃ ┃ ┃ ┣ ProfileHeader
+   ┃ ┃ ┃ ┣ SaveHeader
+   ┃ ┃ ┃ ┣ SearchHeader
+   ┃ ┃ ┃ ┣ UploadHeader
+   ┃ ┃ ┣ Layout
+   ┃ ┃ ┣ Navbar
+   ┃ ┃ ┗ RequireAuth
+   ┃ ┣ modals
+   ┃ ┃ ┣ ModalLayout
+   ┃ ┃ ┣ MyPostModal
+   ┃ ┃ ┣ PostModal
+   ┃ ┃ ┣ ProductModal
+   ┃ ┃ ┗ ProfileModal
+   ┃ ┣ post
+   ┃ ┃ ┣ ImageSlide
+   ┃ ┃ ┣ PostAlbum
+   ┃ ┃ ┣ PostForm
+   ┃ ┃ ┣ PostItem
+   ┃ ┃ ┣ PostsList
+   ┃ ┃ ┗ ProductForm
+   ┃ ┣ profile
+   ┃ ┃ ┣ FollowUser
+   ┃ ┃ ┣ MyPosts
+   ┃ ┃ ┣ ProductList
+   ┃ ┃ ┗ ProfileInfo
+   ┃ ┣ search
+   ┃ ┃ ┗ SearchList
+   ┃ ┣ splash
+   ┃ ┃ ┗ SplashImg
+   ┃ ┣ user
+   ┃ ┃ ┗ UserProfileForm
+   ┃ ┗ index.js
+   ┣ hooks
+   ┃ ┣ index.js
+   ┃ ┣ useDebounce.js
+   ┃ ┗ useTitle.js
+   ┣ pages
+   ┃ ┣ Chat
+   ┃ ┣ Follows
+   ┃ ┣ Home
+   ┃ ┣ Login
+   ┃ ┣ Missing
+   ┃ ┣ Post
+   ┃ ┣ PostModify
+   ┃ ┣ PostUpload
+   ┃ ┣ ProductModify
+   ┃ ┣ ProductUpload
+   ┃ ┣ Profile
+   ┃ ┣ ProfileModify
+   ┃ ┣ Public
+   ┃ ┣ Search
+   ┃ ┣ Signup
+   ┃ ┣ SignupProfile
+   ┃ ┗ index.js
+   ┣ routes
+   ┃ ┗ Router.jsx
+   ┣ styles
+   ┃ ┣ GlobalStyled.jsx
+   ┃ ┗ theme.js
+   ┣ utils
+   ┃ ┗ setTime.js
+   ┣ App.js
+   ┗ index.js
+```
+
+</details>
+
+### 3-1. 패키지 모듈
+
+- `create-react-app` : 리액트 설치 및 개발환경 셋팅
+- `react-router-dom` : 페이지 간 이동 처리(라우팅)
+- `axios` : HTTP-API 연동
+- `eslint`, `prettier` : 협업을 위한 동일 코드 포맷팅 처리 및 코드 품질 관리
+
+<br />
+
+## 4. 주요기능
+
+<details>
+  <summary>4-1. useTitle로 효율적인 Doc Title 설정하기</summary>
+
+### 페이지 타이틀
+
+웹사이트에 접속하면 브라우저의 상단 탭에서 페이지 제목을 볼 수 있습니다. 이 페이지 제목을 Document Title이라고 합니다.  
+Document Title은 가장 대표적인 웹사이트의 타이틀로, 각 페이지의 주제를 잘 나타낼 수 있는 요소이자 해당 웹사이트를 사용하는 유저에게 현재 자신이 있는 위치를 알려주는 중요한 요소입니다.
+
+<div style="display: flex; justify-content: center">
+  <img width="518" alt="스크린샷 2023-01-02 오후 9 03 49" src="https://user-images.githubusercontent.com/97153666/210228808-2bc81167-ca94-4c1d-b022-c3891ad8892b.png">
+</div>
+
+하지만 React는 SPA이고 하나의 `index.html`을 가지기 때문에 각 페이지마다의 타이틀을 `<title></title>` 요소로 변경할 수가 없습니다. 따라서 다음과 같이 `useTitle` 커스텀 훅을 만들었습니다.
+
+### useTitle
+
+```js
+import { useEffect } from 'react';
+
+const useTitle = (title) => {
+  useEffect(() => {
+    const prevTitle = document.title;
+    document.title = title;
+
+    return () => (document.title = prevTitle);
+  }, [title]);
+};
+
+export default useTitle;
+```
+
+`useTitle`은 `unmount`시까지 이전 페이지 타이틀이다가 새 페이지 `mount`하는 경우에 그 페이지의 타이틀로 바꿀 수 있도록 만들었습니다.
+
+#### useTitle 적용
+
+```jsx
+const Login = () => {
+  useTitle('1nMarket - Login');
+
+  // ...
+};
+```
+
+<img width="1191" alt="스크린샷 2023-01-02 오후 9 16 07" src="https://user-images.githubusercontent.com/97153666/210230071-ddc55885-8048-4f51-8e82-476169b12562.png">
+
+다음처럼 useTitle에 인자로 `1nMarket - Login`을 넘겨주게 되면 해당 페이지의 타이틀로 변경하게 됩니다.
+
+</details>
+
+<details>
+  <summary>4-2. Intersection Observer 통해서 피드 무한스크롤 구현</summary>
+
+### Intersection Observer
+
+기본적으로 브라우저 뷰포트(Viewport)와 설정한 요소(Element)의 교차점을 관찰하며, 요소가 뷰포트에 포함되는지 포함되지 않는지, 더 쉽게는 사용자 화면에 지금 보이는 요소인지 아닌지를 구별하는 기능을 제공합니다. 저희는 사용자 화면에 보이는 요소인지 구별하는 기능 즉, 관찰 대상의 교차 상태(Boolean) 확인할 수 있는 `isIntersecting`을 이용해 무한 스크롤을 구현하기로 했습니다.
+
+### Intersection Observer 적용
+
+```js
+const Home = () => {
+  const [postsList, setPostList] = useState([]);
+  const [hasNextFeed, setHasNextFeed] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
+  const page = useRef(0);
+  const observerTargetEl = useRef(null);
+
+  useEffect(() => {
+    if (!observerTargetEl.current || !hasNextFeed) return;
+
+    const getFeed = async () => {
+      const {
+        data: { posts },
+      } = await axiosPrivate.get(`/post/feed/?limit=10&skip=${page.current}`);
+      setPostList((prev) => [...prev, ...posts]);
+      setHasNextFeed(posts.length % 10 === 0);
+      setIsLoading(false);
+      page.current += 10;
+    };
+
+    const io = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        getFeed();
+      }
+    });
+    io.observe(observerTargetEl.current);
+
+    return () => {
+      io.disconnect();
+    };
+  }, [hasNextFeed]);
+
+  return (
+    <>
+      <HomeHeader />
+      <S.Container>
+        <PostsList postsList={postsList} />
+
+        <div ref={observerTargetEl} />
+      </S.Container>
+    </>
+  );
+};
+```
+
+- `<div ref={observerTargetEl}>`으로 관찰하려고 하는 엘리먼트를 생성하고, useRef를 이용하여 지정해줬습니다.
+- `/post/feed/?limit=10&skip=${page.current}`
+  - limit으로 한 번에 10개의 포스트들을 받아오도록 하고, skip을 통해 변수를 넘겨서 0 ~ 9, 10 ~ 19, 20 ~ 29번의 포스트들을 가져올 수 있도록 설정했습니다.
+- `hasNextPage` 상태를 통해 다음 페이지가 존재하는지 체크하고, 만약 10의 배수로 떨어지지 않는다면 다음 포스트가 없으므로 `false`로 되도록 설정했습니다.
+  - 만약 100개의 포스트라는 10으로 나누어 떨어지기 때문에 한 번 더 요청한다는 단점이 있습니다.
+- `io.observer(observerTargetEl.current)`를 통해 해당 엘리먼트를 관찰합니다.
+- `if (entries[0].isIntersecting) { getFeed() }`
+  ![intersection-observer-is-intersecting](https://user-images.githubusercontent.com/97153666/210304150-610bb400-a885-4638-82b2-d8cc387bf938.jpg)
+  - 출처: [Intersection Observer - 요소의 가시성 관찰](https://heropy.blog/2019/10/27/intersection-observer/)
+  - 관찰 대상이 루트 요소와 교차 상태로 들어가거나(`true`) 교차 상태에서 나가는지 (`false`) 여부를 나타내는 값(`Boolean`)을 이용하여 `useRef`로 지정한 요소가 교차 상태가 되면 `getFeed`가 실행되도록 설정했습니다.
+
+### 무한 스크롤 구현 시 문제점
+
+10개의 포스트 렌더링 후 다음 10개의 포스트를 받아오면 20개의 포스트 렌더링 그 다음 10개의 포스트를 받아오면 30개의 포스트를 렌더링하는 문제가 발생합니다. 이를 해결하기 위해서 React에서 제공하는 `memo`를 사용하였는데 아래 트러블 슈팅에서 자세히 다루겠습니다.
+
+</details>
+
+<br />
+
+## 5. 트러블 슈팅
+
+<details>
+  <summary>5-1. memo 사용해서 피드 무한스크롤 시 이전 게시글 최적화 작업</summary>
+
+### ❓ 문제원인
+
+### 게시글 무한 스크롤 문제점
+
+<img width="1080" alt="스크린샷 2023-01-03 오후 2 41 52" src="https://user-images.githubusercontent.com/97153666/210306801-7d3227d3-a181-4627-ba46-008f6955f1a2.png">
+
+위에서 `Intersection Oberserver`로 무한 스크롤 구현 시 10개의 포스트 렌더링 후 다음 10개의 포스트를 받아오면 20개의 포스트 렌더링 그 다음 10개의 포스트를 받아오면 30개의 포스트를 렌더링하는 문제가 발생한다고 했습니다. 이와 같은 문제를 `React Profiler`를 돌려보면 다음처럼 다음 10개의 포스트를 받아와도 제일 상단에 있는 게시글이 다시 렌더링되는 것을 확인할 수 있습니다.
+
+### 🛠 해결방법 : memo
+
+#### memo란?
+
+React는 먼저 컴포넌트를 렌더링(rendering)한 뒤, 이전 렌더된 결과와 비교하여 DOM 업데이트를 결정합니다. 그래서 렌더 결과가 이전과 다르다면, React는 DOM을 업데이트합니다.  
+컴포넌트가 `React.memo()`로 래핑될 때, React는 컴포넌트를 렌더링하고 결과를 메모이징(`Memoizing`)합니다. 그리고 자주 다음 렌더링이 일어날 때 `props`가 같다면 React는 메모이징된 내용을 재사용합니다. 이를 활용하여 다음 10개의 게시글을 받아올 때 이전 게시글들을 메모이징하여 다시 렌더링하지 않도록 만들 수 있습니다.
+
+#### memo 적용
+
+```jsx
+import { memo } from 'react';
+const PostItem = ({ post }) => {
+  // ...
+};
+export default memo(PostItem);
+```
+
+<img width="1243" alt="스크린샷 2023-01-03 오후 2 42 39" src="https://user-images.githubusercontent.com/97153666/210306691-134da416-d1d1-446b-91cc-ec4890d77f53.png">
+
+만약 `post`와 같은 `props`가 변경되지 않는다면 다음 렌더링 때 메모이징된 내용을 그대로 사용하고 다시 렌더링하지 않게 된 것을 React Profiler를 통해서 확인할 수 있습니다. 이제는 아무리 많은 게시글을 불러오더라도 마지막 10개의 게시글만 렌더링하게 되도록 만들었습니다.
+
+</details>
+
+<details>
+  <summary>5-2. useDebounce 사용해서 검색 최적화하기</summary>
+   
+### ❓ 문제원인
+### 기존 Search 컴포넌트
+
+```jsx
+const Search = () => {
+  const [keyword, setKeyword] = useState('');
+  const [searchList, setSearchList] = useState([]);
+
+  useEffect(() => {
+    if (!keyword.length) return;
+
+    const searchUsers = async () => {
+      const { data } = await axiosPrivate.get(
+        `/user/searchuser/?keyword=${keyword}`,
+      );
+      setSearchList(data);
+    };
+    searchUsers();
+  }, [keyword]);
+};
+```
+
+<img width="1656" alt="스크린샷 2023-01-02 오후 2 15 55" src="https://user-images.githubusercontent.com/97153666/210197695-9f83b85e-c657-44ae-abbe-d9ced33d1aec.png">
+
+기존의 Search 페이지에서 검색칸에 값을 입력할 때마다 api를 호출하기 때문에 필요없는 요청을 너무 많이 하게 되어 이를 줄일 필요가 있다고 느끼게 되었습니다. 그래서 바로바로 호출하기 보다는 값을 입력한 후 시간이 어느 정도 흐른 후에 api를 호출하는 방식으로 만들기 위해서 useDebounce 커스텀 훅을 생성했습니다.
+이 때, `debounce`는 쉽게 말해 특정 시간이 지난 후에 한 번만 이벤트가 실행되도록 하는 것입니다.
+
+### 🛠 해결방법 : useDebounce
+
+```js
+// hooks/useDebounce.js
+const useDebounce = (value, delay) => {
+  const [debouncedValue, setDebounceValue] = useState(value);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setDebounceValue(value), delay || 500);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [value, delay]);
+
+  return debouncedValue;
+};
+
+export default useDebounce;
+```
+
+입력된 값(`value`)를 state로 재정의(`debouncedValue`)한 후, `useEffect`에서 `setTimeout`을 이용하여 특정 시간이 지난 후에 전달받은 `debouncedValue`의 값을 변경하도록 작성했습니다.  
+`delay`는 기본 500밀리초를 기본으로 `setDebounceValue`가 실행되기까지의 지연 시간입니다.
+
+#### useDbounce 훅 적용
+
+```jsx
+const Search = () => {
+  const [keyword, setKeyword] = useState('');
+  const debouncedValue = useDebounce(keyword);
+  const [searchList, setSearchList] = useState([]);
+
+  useEffect(() => {
+    if (!debouncedValue.length) return;
+
+    const searchUsers = async () => {
+      const { data } = await axiosPrivate.get(
+        `/user/searchuser/?keyword=${debouncedValue}`,
+      );
+      setSearchList(data);
+    };
+    searchUsers();
+  }, [debouncedValue]);
+};
+```
+
+<img width="1583" alt="스크린샷 2023-01-02 오후 2 29 22" src="https://user-images.githubusercontent.com/97153666/210197700-4d5b8275-cfce-4344-b103-4b3446b89692.png">
+
+기존의 `keyword`가 아닌 이제는 사용자가 입력하고 끝으로 500밀리초가 지나서 상태값이 바뀌는 `debouncedValue`를 통해 불필요한 리렌더링을 막을 수 있게 되었습니다.
+
+</details>
+
+<details>
+  <summary>5-3. 사용자 토큰 검증</summary>
+
+### ❓ 문제원인
+
+### 기존 RequireAuth 컴포넌트
+
+```jsx
+const RequireAuth = () => {
+  const token = JSON.parse(localStorage.getItem('token'));
+  const location = useLocation();
+
+  return (
+    <>
+      {token ? (
+        <Outlet />
+      ) : (
+        <Navigate to='login' state={{ from: location }} replace />
+      )}
+    </>
+  );
+};
+```
+
+저희는 사용자가 로그인하면 `accessToken`을 localStorage에 저장하는 방식을 사용했습니다. 그리고 위 `RequireAuth` 컴포넌트을 통해 localStorage에 `token`이 있는 경우에 `<Outlet>`을 통해 자식 요소들을 보여주고, 없는 경우에는 `/login` 경로로 이동하도록 작성했습니다. 하지만 이 때 문제가 있는 것을 확인했습니다.
+
+<img width="1194" alt="스크린샷 2023-01-02 오후 4 25 09" src="https://user-images.githubusercontent.com/97153666/210203674-d1ad5521-adad-483c-907a-39082a6d5a5e.png">
+
+위 사진처럼 인위적으로 localStorage에 `token`과 그 값으로 아무렇게나 정하고 저장하면 로그인 후에만 들어갈 수 있는 페이지도 들어갈 수 있게 됩니다. 따라서 토큰의 유무 확인만으로는 부족하고, `token`을 검증하는 과정이 필요하다고 느끼게 되었습니다.
+
+### 🛠 해결방법 : `/user/checktoken` api를 통해 알맞은 토큰인지 검증
+
+```jsx
+const RequireAuth = () => {
+  const token = JSON.parse(localStorage.getItem('token'));
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const isValid = async () => {
+      try {
+        const { data: isValid } = await axiosPrivate.get('/user/checktoken');
+        if (!isValid) {
+          localStorage.removeItem('token');
+          navigate('/login');
+        }
+      } catch (err) {
+        localStorage.removeItem('token');
+        navigate('/login');
+      }
+    };
+    isValid();
+  }, []);
+
+  return (
+    <>
+      {token ? (
+        <Outlet />
+      ) : (
+        <Navigate to='login' state={{ from: location }} replace />
+      )}
+    </>
+  );
+};
+```
+
+위 `useEffect` 안에서 localStorage에 저장된 `token`이 알맞는 것인지 `GET /user/checktoken`을 통해서 확인한 후 만약 `401(unauthorized)`나 `isValid: false`를 받게 되면 다음처럼 localStorage에 저장된 token을 지우고 `/login` 페이지로 이동할 수 있도록 작성했습니다.  
+만약 `isValid: true`를 응답받게 되면 기존의 로직대로 `<Outlet />`을 통해 자식 요소들을 계속해서 보여주도록 했습니다.
+
+</details>
+
+<details>
+
+<summary>5-4. 복잡한 경로 jsconfig.json으로 깔끔하게 정리하기</summary>
+
+### ❓ 문제원인
+
+### 절대 경로 적용 전 router.jsx 파일
+
+```jsx
+// src/routes/Route.jsx
+import Layout from '../components/common/Layout';
+import Navbar from '../components/common/Navbar';
+import RequireAuth from '../components/common/RequireAuth';
+import Follows from '../pages/Follows';
+import Home from '../pages/Home';
+import Login from '../pages/Login';
+import PostUpload from '../pages/PostUpload';
+import ProdcutUpload from '../pages/ProductUpload';
+import Profile from '../pages/Profile';
+// ...
+```
+
+상대 경로로 멀리 떨어진 컴포넌트 참조 시 경로가 지저분해질 수 있고, 현재 컴포넌트 위치를 옮기면 vscode에서 import Path를 제대로 못 잡아주는 경우가 간혹 있습니다. 따라서 절대 경로를 설정해줘 이를 해결하고자 했습니다.
+
+### 🛠 해결방법 : 절대 경로 설정
+
+루트폴더에 `jsonconfig.json`을 생성하여 다음과 같이 `"baseUrl": "src"`를 작성하면 루트폴더가 src 폴더로 설정되고, 절대경로 작성시 src폴더에서부터 경로를 찾게 됩니다.
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  }
+}
+```
+
+### `export ... from ...`로 모듈 다시 내보내기
+
+```js
+// pages/index.js
+export { default as Home } from './Home';
+export { default as Chat } from './Chat';
+export { default as Follows } from './Follows';
+export { default as Login } from './Login';
+// ...
+```
+
+`components`와 `pages` 폴더에 index.js 파일을 생성해 다음과 같이 모듈을 다시 내보내줘 경로를 참조하는 경우 `component`와 `pages`만 작성해도 참조할 수 있도록 만들어줬습니다.
+
+- `export default`로 내보내는 경우에는 저희처럼 `export { default as Home } from './Home'`으로 작성해줘야 합니다.
+- 만약 그냥 `export`로 내보내는 경우는 `export * from './Home'`으로도 가능합니다.
+
+### 경로 참조
+
+```jsx
+// routes/Route.jsx
+import {
+  Follows,
+  Home,
+  // ...
+} from 'pages';
+import { Layout, Navbar, RequireAuth } from 'components';
+```
+
+```jsx
+// pages/Search
+import { useState, useEffect } from 'react';
+import { SearchHeader, SearchList } from 'components';
+import { useDebounce, useTitle } from 'hooks';
+import { axiosPrivate } from 'apis/axios';
+import * as S from './style';
+
+// ...
+```
+
+위의 과정을 통해 경로를 깔끔하게 관리하는 것만으로 import하기 위한 코드를 한 줄로 줄일 수 있고, 파일 위치 파악을 간단히 할 수 있도록 만들 수 있습니다. 그리고, 현재 컴포넌트 위치를 옮겨도 절대 경로와 `index.js`로 참조하므로 IDE에 종속적이지 않습니다.
+
+</details>
+
+<details>
+  <summary>5-5. state로 렌더링 지연문제 해결</summary>
+
+### axios 데이터 호출 코드
+
+상품 수정 페이지가 마운트 될 때 수정하려는 상품의 데이터가 렌더링 되어야 합니다. 이 때 보통의 경우 axios를 사용하여 기존 데이터를 불러오는 경우가 대부분입니다.
+
+```js
+useEffect(() => {
+  const getProduct = async () => {
+    const {
+      data: { product },
+    } = await axiosPrivate.get(`/product/detail/${productId}`);
+    setImgFiles(product.itemImage);
+    setProductName(product.itemName);
+    setProductLink(product.link);
+    setProductPrice(product.price);
+  };
+  getProduct();
+}, []);
+```
+
+### ❓ 문제원인
+
+하지만 이런 방식으로 데이터를 호출할 경우 서버와 통신하는 시간이 필요하게 되어 곧바로 데이터가 보이지 않습니다. 즉 바로 아래와 같이 통신이 완료되는 시간동안 지연된 이후에 데이터 값이 보이게 됩니다.
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/97153666/210312394-d507748f-3e31-4975-a74d-a31a0c6c02af.gif" width="200">
+
+<br>
+
+### 🛠 해결방법 : ProductList 컴포넌트 내 서버에서 이미 받아온 데이터를 props로 전달
+
+저희 조는 이러한 `데이터 호출 지연문제를 해결하기 위해` 상품리스트에서 미리 서버로부터 통신이 완료된 데이터를 props로 받아와 사용하였습니다.
+
+<br>
+
+props는 `ProductList 컴포넌트에서 axios로 데이터 호출 👉 ProductList 컴포넌트에서 ProductModal로 props 내려주기 👉 ProductModal 컴포넌트에서 모달창 링크를 통해 state로 데이터값 내려주기 👉 내려받은 state로 ProductModify에서 초기 렌더링 값 설정` 의 과정을 거쳐 값을 전달해줍니다.
+
+<br>
+
+#### `ProductList 컴포넌트에서 axios로 데이터 호출`
+
+```js
+useEffect(() => {
+  const getProductList = async () => {
+    const {
+      data: { product },
+    } = await axiosPrivate.get(`/product/${accountname}`);
+    setProductList(product);
+  };
+  getProductList();
+}, [accountname]);
+```
+
+<br>
+
+👇
+
+<br>
+
+#### `ProductList 컴포넌트에서 ProductModal로 props 내려주기`
+
+```js
+<ProductModal
+  link={product.link}
+  productId={product.id}
+  product={product}
+  setProductList={setProductList}
+  setOpenModal={setOpenModal}
+/>
+```
+
+<br>
+
+👇
+
+<br>
+
+#### `ProductModal 컴포넌트에서 모달창 링크를 통해 state로 데이터 값(...product) 내려주기`
+
+```js
+<ModalLayout setOpenModal={setOpenModal}>
+  <li onClick={() => setOpenAlert(true)}>삭제</li>
+  <li>
+    <S.StyledLink to={`/product/${productId}/edit`} state={{ ...product }}>
+      수정
+    </S.StyledLink>
+  </li>
+  <li>
+    <S.ProductLink href={`${link}`}>웹사이트에서 상품 보기</S.ProductLink>
+  </li>
+</ModalLayout>
+```
+
+<br>
+
+✅ 수정 페이지의 경우 url을 통하여 접근하는 경우는 거의 없기 떄문에 위와 같이 Link에 state 값을 넘겨주었습니다. 혹시나 url이 들어간 경우에는 오류가 발생하기 떄문에 "`/home`"으로 이동할 수 있도록 처리하였습니다.
+
+<br>
+
+👇
+
+<br>
+
+#### `내려받은 state로 ProductModify에서 초기 렌더링 값 설정`
+
+```js
+const { state } = useLocation();
+const [imgFiles, setImgFiles] = useState(state?.itemImage || '');
+const [productName, setProductName] = useState(state?.itemName || '');
+const [productLink, setProductLink] = useState(state?.link || '');
+const [productPrice, setProductPrice] = useState(state?.price || '');
+```
+
+<br>
+
+이와 같은 과정을 통해 필요이상의 통신과정을 건너뛸 수 있게되고, 따라서 페이지 마운트 시에 바로 기존의 데이터를 접할 수 있게 되어 사용자로 하여금 쾌적한 환경을 경험할 수 있도록 합니다. 아래와 같이 바로 데이터 값을 볼 수 있게 됩니다.
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/111214565/210313778-2d9e923b-c53e-4213-ae68-4b6a883637f8.gif" width="200">
+
+<br>
+
+앞서 설명한 부분은 게시글 수정 페이지에서도 같은 맥락으로 적용됩니다.
+
+</details>
+
+<br />
+
+## 5. UI 및 페이지 기능
 
 <div align="center">
 
@@ -88,228 +699,36 @@
 
 </div>
 
-
-
 <br>
 
-## 핵심 기능
+<br />
 
-<details>
-<summary style="font-size: 18px">모달 컴포넌트</summary>
-<div markdown="1">
+## 6. 쁘2조 팀빌딩
 
-- 독립적인 모달 컴포넌트를 구현하기 위해 createPortal을 사용하여 부모 컴포넌트의 자식 요소가 아닌,다른 노드의 자식으로 렌더링을 시키도록 분리
+### 1) 매일 오전 9시 데일리스크럼 진행
 
-```html
-<!-- index.html -->
-<body>
-  <div id="root"></div>
-  <div id="modal"></div>
-  <!--이 요소의 자식 요소로 모달 컴포넌트를 넣어줍니다-->
-</body>
-```
+<div align="center"><img src="https://user-images.githubusercontent.com/104605709/210311021-8e5cd96a-4731-4cb7-bde5-a1e31f9c671f.png" width="350px"></div>
 
-```js
-//modal.jsx
-ReactDOM.createPortal(모달컴포넌트 , document.getElementById('modal’));
-```
+매일 오전 9시에 모여 오늘 진행할 자신의 업무와 어려운 점들을 공유하였습니다. 그 과정에서 프로젝트의 진행 속도와 해결되지 않는 이슈들, 또한 각 팀원의 컨디션을 파악하여 **모든 팀원이 프로젝트를 끝까지 마무리할 수 있도록 일정조율 및 이슈를 함께 해결하는 문화를 만들었습니다.**
 
-- 모달의 열고 닫힘을 setState함수를 직접적으로 넘겨주지 않고 handleOpenModal, handleCloseModal로 명확하게 분리시켜준 후, 버튼을 클릭시 모달리 열리도록, 모달 컴포넌트 내부에서는 모달을 닫을 수 있도록 handler함수로 넘겨줌
+### 2) 매일 30분 페어프로그래밍
 
-- setState함수로 직접 넘겨주면, 자식 요소가 부모 요소의 state를 변경가능하기 때문에, 리액트가 지향하는 단방향 데이터 흐름에 위배되기 때문에 handler함수로 넘겨주는 것이 좋음
+데일리스크럼을 통해 파악된 각 팀원들의 개발 속도 및 실력 편차를 줄이고자 매일 30분간 팀리더의 주도하에 페어프로그래밍을 진행했습니다. 이를 통해 **에러를 해결하는 방법을 배울 수 있었으며, 그 과정에서 의견을 전달하고 조율하는 소프트 스킬을 향상시킬 수 있었습니다.**
 
-- 모달마다 다른 내용으로 이루어져있기 때문에, 모달 내용을 구성하는 컴포넌트들을 페이지별로 만들어줌
+<br />
 
-- ModalBtn으로 감싼 요소가 모달의 내용을 구성할 수 있도록 children을 통해 모달에 모달내용 컴포넌트를 넘겨줌
+## 7. 앞으로의 업데이트 계획
 
-</div>
-</details>
+### 1) [리팩토링] 전역 상태관리 사용
 
-<details>
-<summary style="font-size: 18px">여러개의 이미지 미리보기</summary>
-<div markdown="1">
+- 지금은 사용자의 정보나 반복해서 사용해야하는 데이터들을 로컬 스토리지 혹은 props로 관리하고 있어, 내용이 많아질수록 관리가 어려워집니다. 리팩토링 단계에서는 데이터를 효율적으로 관리하고자 전역 상태 관리 라이브러리를 사용해보고자 합니다.
 
-- `<input type="file">`로 지정하고 useRef 훅을 사용하여 input에 못생긴 버튼을 이쁜 이미지 버튼으로 바꿈
+### 2) [리팩토링] 이미지 스프라이트 기법 사용
 
-- 삼항연산자를 사용하여 imageUrl.length를 확인하고 참과 거짓을 판별함. imageUrl배열의 index가 3개를 넘으면 alert 창을 띄우고 state에 추가하지 않음.  imageUrl배열의 index가 3개 이하일때는 <S.ImgUploadBtn>에서 ref로 input DOM에 접근하여 onChange 이벤트위임을 발생시킴
+- 현재 단일 파일로 되어있는 아이콘 이미지들을 스프라이트 이미지로 변경하고, 이미지 로딩 속도를 개선시켜 사용자에게 좀 더 쾌적한 환경을 제공하고자 합니다.
 
-```js
-<S.ImgUploadBtn
-  onClick={() =>
-    imageUrl.length >= 3
-      ? alert('이미지는 3개까지만 업로드할 수 있습니다.')
-      : Upload_Input.current.click()
-  }
-/>
-```
+### 3) 추가 기능 구현
 
-- 최대 3개의 이미지파일만 올릴 수 있는 설정을 마쳤다면 미리보기 구현을 위해 특별한 작업을 해야 함. 보안상의 이유로 자동으로 상대경로를 블러 처리를 해버리기 때문에 Web API 중 FileReader라는 객체를 사용하여 미리보기를 구현 함. image를 base64이미지들(문자열배열)로 바꾼 후, setState 상태에 담음
+- 채팅 기능 구현 및 소셜 로그인 기능을 조금 더 완성도를 높일 예정입니다.
 
-- && 연산자 조건부 렌더링을 사용하여 base64이미지들(문자열배열)을 map으로 돌려 이미지 태그를 여러개 만들어주면 여러개 이미지가 미리보기로 띄워짐
-
-```js
-<S.PostFormContainer>
-  {imageUrl &&
-    imageUrl.map((image, i) => (
-      <S.PreviewImage key={i} src={image} alt="이미지 미리보기" />
-    ))}
-```
-
-</div>
-</details>
-
-<details>
-<summary style="font-size: 18px">사용자 프로필 페이지</summary>
-<div markdown="1">
-
-```javascript
-  useEffect(() => {
-    if (userToken) {
-      const getProfileData = async () => {
-        await axios({
-          method: 'get',
-          url: `https://mandarin.api.weniv.co.kr/profile/${
-            params.id === accountName ? accountName : params.id
-          }`,
-          headers: {
-            Authorization: `Bearer ${userToken}`,
-            'Content-type': 'application/json',
-          },
-        }).then((response) => {
-          setUserProfileData(response.data.profile);
-        });
-      };
-```
-
-- parmas(현재 접속중인 프로필 url의 사용자 아이디)와 accountName(현재 로그인한 사용자)이 같으면 내 프로필 정보를 가져옴. 그렇지 않으면 현재 접속중인 URL의 사용자 아이디에서 그 사용자의 프로필 데이터를 가져옴
-
-- 로컬스토리지에 저장된 accountName과, 현재 받아오고있는 사용자데이터의 accountname을 비교하여 isAuthorized상태를 설정함. isAuthorized상태에 따라 표시되는 프로필 화면이 다름. (내프로필 / 다른 사용자의 프로필)
-
-- 로컬스토리지는 사용자가 언제든 바꿀 수 있기 때문에 보안상 좋지 않아보여서😂 추후 isAuthorized 상태 설정하는 방식을 변경할 예정
-
-```javascript
-      const getPostData = async () => {
-        ...
-      };
-      getProfileData();
-      getPostData();
-    }
-  }, [params]);
-```
-
-- 다른 사용자의 프로필 페이지를 보다가 하단 네비바에서 ‘프로필’ 버튼을 클릭하면 내 프로필이 보이지 않고 이전의 프로필이 그대로 보이는 이슈가 있었음. 사용자 데이터를 불러오는 함수가 ‘userToken이 바뀔 때마다’ 실행되었기 때문. 따라서 의존성배열을 params(=현재 접속중인 url의 사용자 아이디)로 바꾸었습니다. url이 바뀔때마다 프로필 데이터를 가져오도록하여 문제를 해결함
-
-</div>
-</details>
-
-<br>
-
-## 트러블 슈팅
-
-### [프로젝트 시작 전 컨벤션 작업]
-
-<strong>어떤 문제가 있었나?</strong>
-
-- 프로젝트... 그냥 코딩만 하면 되는 줄 알았는데 아니였음. 각자 코딩해서 PR날린 코드는 작업파일 겹침, 각자 다른 프리티어 설정 및 VS Code 편집기 설정 등의 이유로 충돌이 일상이었음
-- 무작정 코딩을 시작하기 전에 어느정도 체계적인 컨벤션을 수립하는 것에 대한 필요성을 강하게 느낌
-
-<strong>어떻게 해결했나?</strong>
-
-- eslintrc.js파일 추가하고 프로젝트 성격에 맞게 커스텀. 안정적인 코드를 위해 var키워드 사용시 오류로 출력, != 와 == 대신 !== 와 === 사용, 사용하지 않는 변수사용이나 훅 임포트시 경고는 하되 오류는 출력되지 않도록 설정
-
-- prettierrc 파일 추가하여 서로다른 프리티어 설정때문에 의미없는 커밋이 추가되거나 파일마다 코드 스타일이 바뀌지 않도록 함
-
-- 깃플로우를 베이스로 하여 프로젝트 규모에 맞게 브랜치 3개(feature, develop, main)를 이용하는 전략으로 수정. 추후에 배포를 위한 release브랜치 추가
-
-- 깃 커밋 템플릿을 global로 지정하여 커밋메세지를 정해진 규칙에 맞게 간편하게 작성할 수 있도록 하여 History 열람시 가독성을 높힘
-
-- 깃헙에서의 PR템플릿, 이슈템플릿 등 적용하여 간편하게 형식에 맞는 글을 작성할 수 있도록 하고 가독성을 높힘. 특히 PR템플릿에 `어떤 부분에 리뷰어가 집중하면 좋을까요?` 추가하여 그부분을 중점으로 코드리뷰가 이루어질 수 있도록 함
-
-<br>
-
-<br>
-
-### [배포 전으로 돌리기 위한 Revert]
-
-<strong>어떤 문제가 있었나?</strong>
-
-- 작업하던 레포지토리 내에 그대로 firebase를 세팅하고 배포를 마친 후에, 작업용 레포지토리와 배포용 레포지토리를 분리하기로 결정함.
-- 배포할때 생긴 파일들이 있기 전으로, 즉 배포전으로 revert하고자 함.
-- 하지만 우리가 돌아가려는 배포 commit 이후에 병합 commit들이 포함되어있어서 충돌이 일어남.
-
-<strong>어떻게 해결했나?</strong>
-
-- CLI가 익숙치 않아 그래픽을 사용해서 revert하기로 함 -> Git Graph사용
-
-- 돌아가려는 커밋 이후에 배포 관련 파일을 수정한 커밋들이 존재하는데, 아예 그 파일들이 존재하지 않는 상태로 revert를 하려니 충돌이 일어난 것 -> 파일 삭제하고 commit후 revert 진행
-
-- 작업파일과 배포파일이 뒤섞여 commit 되어있는 상태여서 일어난 문제 -> 배포용 레포지토리와 작업용 레포지토리 분리의 중요성을 깨달음
-
-<br>
-
-# 👣프로젝트 기록들
-
-## 기술블로그 운영
-
-[기술블로그](https://don-t-buy-macat.tistory.com/) 운영으로 트러블슈팅 및 기술구현시 난제(삽질) 기록
-
-<br>
-
-- <a href="https://don-t-buy-macat.tistory.com/11">여러개 이미지 화면에 미리보기 구현</a></br>
-- <a href="https://don-t-buy-macat.tistory.com/8?category=949581">실시간으로 유효성 검사를 해주는 input 컴포넌트 구현기</a> </br>
-- <a href="https://don-t-buy-macat.tistory.com/12?category=949581">이젠, Nav바 만들 때 NavLink를 쓰자</a></br>
-- <a href="https://don-t-buy-macat.tistory.com/10?category=949580">0이 서버로 보내지지 않았던 엄청난 이유..!</a></br>
-
-<br>
-
-## 버전 계획
-
-### 사지마캣 v1.1.0 (2022.08.06 예정)
-
-<br>
-
-- 상태관리 리팩토링
-
-  - 현재 로컬스토리지로 값을 저장해 옮겨다니는 유저 정보를 여러 상태관리 방법을 비교해보고 도입할 예정
-  - useContext, Redux tookit, Recoil
-
-<br>
-
-- 최적화작업
-  - useMemo 사용하여 불필요한 재렌더링 방지
-
-<br>
-
-- 스타일컴포넌트 리팩토링
-
-  - 중복되는 스타일 극한의 컴포넌트화
-
-<br>
-
-### 사지마캣 v2.0.0(추가기능 구현)
-
-<br>
-
-- 추가 기능구현
-
-  - 지현: 오픈 API이용한 소셜로그인 (카카오톡, 페이스북, 구글)
-  - 수빈: 입양 등록 수정 · 모달 컴포넌트 코드최적화 및 선택
-  - 시아: 컴포넌트 최적화 및 비동기 로직 분리
-  - 윤희: 게시물이미지 업로드 삭제기능 구현
-
-<br>
-
-- 기능분리
-  - 함수 하나에 한개의 기능만 있도록
-  - Custom Hooks, Reducer 사용한 axios함수 분리
-
-<br>
-
-- 사용자경험 개선
-  - 이미지 슬라이드 개선
-  - 네비게이션 바 클릭시 미세한 움직임 해결
-
-<br>
-
-- CI/CD
-  - github action을 통한 자동 배포화
+<p align="right"><a href="#top">🔼 Top</a></p>
